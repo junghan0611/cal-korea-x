@@ -91,7 +91,7 @@
 ;; %%(diary-solar-term "동지") 동지(冬至)
 ;; -----------------------------------------------------------------------------
 
-(require 'cl-lib)
+(eval-when-compile (require 'cl-lib))
 (require 'calendar)
 (require 'holidays)
 (require 'solar)
